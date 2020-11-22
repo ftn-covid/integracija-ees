@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMProfileLoader", "CIMProfileLoader.csproj", "{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Debug|x86.ActiveCfg = Debug|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Debug|x86.Build.0 = Debug|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Release|x86.ActiveCfg = Release|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FA53238-39FF-496F-90E3-190727C9D6C3}
+	EndGlobalSection
+EndGlobal
