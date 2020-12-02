@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMParser", "CIMParser\CIMParser.csproj", "{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMProfileCreator", "CIMProfileCreator\CIMProfileCreator.csproj", "{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLabsApp", "ModelLabsApp\ModelLabsApp.csproj", "{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102} = {3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMProfileLoader", "CIMProfileLoader\CIMProfileLoader.csproj", "{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Debug|x64.ActiveCfg = Debug|x64
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Debug|x64.Build.0 = Debug|x64
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Debug|x86.ActiveCfg = Debug|x86
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Debug|x86.Build.0 = Debug|x86
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Release|x64.ActiveCfg = Release|x64
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Release|x64.Build.0 = Release|x64
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Release|x86.ActiveCfg = Release|x86
+		{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}.Release|x86.Build.0 = Release|x86
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Debug|x64.ActiveCfg = Debug|x64
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Debug|x64.Build.0 = Debug|x64
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Debug|x86.ActiveCfg = Debug|x86
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Debug|x86.Build.0 = Debug|x86
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Release|x64.ActiveCfg = Release|x64
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Release|x64.Build.0 = Release|x64
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Release|x86.ActiveCfg = Release|x86
+		{05FA2F21-D4DE-4F42-8D8F-AC79993394F6}.Release|x86.Build.0 = Release|x86
+		{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}.Debug|x64.ActiveCfg = Debug|x86
+		{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}.Debug|x86.ActiveCfg = Debug|x86
+		{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}.Debug|x86.Build.0 = Debug|x86
+		{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}.Release|x64.ActiveCfg = Release|x86
+		{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}.Release|x86.ActiveCfg = Release|x86
+		{3DD11384-2CC1-4EE9-9F4A-02B6FE8759C0}.Release|x86.Build.0 = Release|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Debug|x64.ActiveCfg = Debug|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Debug|x86.ActiveCfg = Debug|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Debug|x86.Build.0 = Debug|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Release|x64.ActiveCfg = Release|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Release|x86.ActiveCfg = Release|x86
+		{7EDD07F3-4264-4E4F-B7D8-4235A6535CA5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
